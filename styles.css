@@ -54,10 +54,10 @@ img {
 #background {
 	display: inline-block;
 	z-index: -21;
-	top: 4.5%;
+	top: 4.4%;
 	left: 9%;
 	height: 1892.5px;
-	width: 1300px;
+	width: 1305px;
 	position: absolute;
 	background-image: linear-gradient(to bottom, #342B72, #85B2A7, #F3D289, #F36165, #F03467);
 }
