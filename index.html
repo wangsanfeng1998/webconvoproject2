@@ -7,27 +7,46 @@
 </head>
 
 <body>
-	<canvas id="chungus" width="400" height="400"></canvas>
+	<!-- <canvas id="chungus" width="400" height="400"></canvas> -->
 	<div>
-		<p>Actual image for reference:  
-		</p>
 		<div id="container">
-			<div id="O">
+			<div id="background"></div>
+			<div class="row"> 
+				<div class="left">T</div> 
+				<div class="mid">H</div> 
+				<div class="right">E</div> 
+				<br style="clear: left;" />
 			</div>
-			<div class="big">THE</div> 
+			<div class="row"> 
+				<div class="left">M</div> 
+				<div class="mid">O</div> 
+				<div class="right">D</div> 
+				<br style="clear: left;" />
+			</div>
+			<div class="row"> 
+				<div class="left">E</div> 
+				<div class="mid">R</div> 
+				<div class="right">N</div> 
+				<br style="clear: left;" />
+			</div>
+			<div class="row"> 
+				<div class="left">P</div> 
+				<div class="mid">O</div> 
+				<div class="right">S</div> 
+				<br style="clear: left;" />
+			</div>
+			<div class="row"> 
+				<div class="left">T</div> 
+				<div class="mid">E</div> 
+				<div class="right">R</div> 
+			</div>
+			<h1>THE MODERN POSTER</h1>
+			<h2>THE MUSEUM OF MODERN ART, New York</h2>
+			<h3>JUNE 6 - SEPTEMBER 6, 1988</h3>
+			<p>This exhibition and its accompanying publication have been made possible by a generous grant from The May Department Stores Company.</p>
+			<p>Additional support has been provided by the National Endowment for the Arts.</p>
 		</div>
-		<img src="modern.jpg"> <!-- <img src="nomad.jpg" > <img src="poland.jpg"> -->
+		<!-- <img src="modern.jpg"> <img src="nomad.jpg" > <img src="poland.jpg"> -->
 	</div>
-	<script>
-		var c = document.getElementById("chungus");
-		var big = c.getContext("2d");
-		big.fillStyle = "#2346fa";
-		big.beginPath();
-		big.moveTo(2,2);
-		big.lineTo(178, 322);
-		big.lineTo(368, 245);
-		big.closePath();
-		big.fill();
-	</script>
 </body>
 </html>
