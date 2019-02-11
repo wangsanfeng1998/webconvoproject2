@@ -26,16 +26,25 @@ img {
 .left {
     float: left;
     width: 325px;
+    background: -webkit-linear-gradient(left, #000, #000, #4C2A75 65%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .mid {
 	float: left;
 	width: 930px;
+	background: -webkit-radial-gradient(center, 5em 70px, #EFD688, #AF4177);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .right {
 	float: left;
 	width: 325px;
+	background: -webkit-linear-gradient(right, #000, #000, #6EA4B2 65%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #container {
