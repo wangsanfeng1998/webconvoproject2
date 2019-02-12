@@ -19,16 +19,91 @@ img {
 	z-index: -1;
 	font-family: big;
 	font-weight: bold;
-	font-size: 340px;
-	
+	font-size: 340px;	
+}
+
+.description {
+	width:100%;
+	font-family: big;
+	font-weight: bold;
+	font-size: 16px;	
+}
+
+#tl{
+	background: -webkit-linear-gradient(top, #000, #000 25%, #342B72 25%, #622B76);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#tm{
+	background: -webkit-linear-gradient(top, #000, #000 25%, #342B72 25%, #622B76);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#ul {
+	background: -webkit-linear-gradient(left, #000, #000 43.5%, #C6507D 43.5%, #DE708A);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#um {
+	background: -webkit-linear-gradient(top, #A03B72, #EE868A);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#ur {
+	background: -webkit-linear-gradient(right, #000, #000 42%, #C6507D 42%, #DE708A);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#ml {
+	background: -webkit-linear-gradient(left, #000, #000 43.5%, #EAAA85 43.5%, #EFEB94);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#mm {
+	background: -webkit-linear-gradient(top, #F4A280, #F0EE97);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#mr {
+	background: -webkit-linear-gradient(right, #000, #000 41%, #EFEB94 41%, #EAAA85);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#ll {
+	background: -webkit-linear-gradient(left, #000, #000 44%, #96C1A6 44%, #B7D0AA);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#lm {
+	background: -webkit-linear-gradient(top, #D6DDA8, #72A7A1);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#lr {
+	background: -webkit-linear-gradient(right, #000, #000 41%, #96C1A6 41%, #B7D0AA);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#bm {
+	background: -webkit-linear-gradient(bottom, #000, #000 30%, #6D95A1 30%, #76A3A6);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .left {
     float: left;
     width: 325px;
-    background: -webkit-linear-gradient(left, #000, #000, #4C2A75 65%);
-    -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .mid {
@@ -74,21 +149,25 @@ img {
 h1 {
 	font-weight: bold;
 	font-family: sans-serif;
+	-webkit-text-size-adjust: auto;
 }
 
 h2 {
 	font-weight: normal;
 	font-family: sans-serif;
+	-webkit-text-size-adjust: auto;
 }
 
 h3 {
 	font-weight: normal;
 	font-family: sans-serif;
+	-webkit-text-size-adjust: auto;
 }
 
 p {
 	font-weight: normal;
 	font-family: sans-serif;
+	-webkit-text-size-adjust: auto;
 }
 
 
